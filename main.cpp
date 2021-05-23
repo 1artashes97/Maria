@@ -13,9 +13,8 @@ double get_minimum_point(double x);
 int main() {
     double x;
     std::cin >> x;
-    //std::cout << std::endl;
-    //std::cout << std::fixed;
-    //std::cout << std::setprecision(4);
+    std::cout << std::fixed;
+    std::cout << std::setprecision(4);
     try {
         std::cout << zoom_in(get_minimum_point(x)) << std::endl;
     }
